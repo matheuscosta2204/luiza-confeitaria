@@ -1,0 +1,77 @@
+[
+    {
+        "title": "A moda da casa",
+        "description": {
+            "dough": {
+                "text": "pão de ló de chocolate",
+                "bgColor": "#61392D",
+                "color": "#f2f2f2"
+            },
+            "filling1": {
+                "text": "brigadeiro",
+                "bgColor": "#4E261A",
+                "color": "#f2f2f2"
+            },
+            "filling2": {
+                "text": "prestígio",
+                "bgColor": "#F1E6E4",
+                "color": "#777"
+            },
+            "cover": {
+                "text": "mousse de chocolate",
+                "bgColor": "#AD7559",
+                "color": "#f2f2f2"
+            }
+        }
+    },
+    {
+        "title": "Prestigio",
+        "description": {
+            "dough": {
+                "text": "pão de ló de chocolate",
+                "bgColor": "#5D372C",
+                "color": "#f2f2f2"
+            },
+            "filling1": {
+                "text": "prestígio",
+                "bgColor": "#F1E6E4",
+                "color": "#777"
+            },
+            "filling2": {
+                "text": "prestígio",
+                "bgColor": "#F1E6E4",
+                "color": "#777"
+            },
+            "cover": {
+                "text": "brigadeiro, raspas de chocolate e chocoball",
+                "bgColor": "#AD7559",
+                "color": "#f2f2f2"
+            }
+        }
+    },
+    {
+        "title": "Ninho Trufado",
+        "description": {
+            "dough": {
+                "text": "pão de ló de chocolate",
+                "bgColor": "#5D372C",
+                "color": "#f2f2f2"
+            },
+            "filling1": {
+                "text": "chocolate trufado",
+                "bgColor": "#4E261A",
+                "color": "#f2f2f2"
+            },
+            "filling2": {
+                "text": "mousse de leite ninho",
+                "bgColor": "#F1E6E4",
+                "color": "#777"
+            },
+            "cover": {
+                "text": "mousse de chocolate e raspas de choc. preto e branco",
+                "bgColor": "#AD7559",
+                "color": "#f2f2f2"
+            }
+        }
+    }
+]

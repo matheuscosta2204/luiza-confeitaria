@@ -1,0 +1,77 @@
+[
+    {
+        "title": "Abacaxi",
+        "description": {
+            "dough": {
+                "text": "pão de ló branco",
+                "bgColor": "#FFF1D4",
+                "color": "#777"
+            },
+            "filling1": {
+                "text": "beijinho com creme tres leite com abacaxi",
+                "bgColor": "#F2DDAD",
+                "color": "#777"
+            },
+            "filling2": {
+                "text": "beijinho com creme tres leite com abacaxi",
+                "bgColor": "#F2DDAD",
+                "color": "#777"
+            },
+            "cover": {
+                "text": "chantily",
+                "bgColor": "#EFEEE8",
+                "color": "#777"
+            }
+        }
+    },
+    {
+        "title": "Pessego",
+        "description": {
+            "dough": {
+                "text": "pão de ló branco",
+                "bgColor": "#FFF1D4",
+                "color": "#777"
+            },
+            "filling1": {
+                "text": "beijinho com creme tres leite com pessego",
+                "bgColor": "#F2DDAD",
+                "color": "#777"
+            },
+            "filling2": {
+                "text": "beijinho com creme tres leite com pessego",
+                "bgColor": "#F2DDAD",
+                "color": "#777"
+            },
+            "cover": {
+                "text": "chantily",
+                "bgColor": "#EFEEE8",
+                "color": "#777"
+            }
+        }
+    },
+    {
+        "title": "Ameixa",
+        "description": {
+            "dough": {
+                "text": "pão de ló branco",
+                "bgColor": "#FFF1D4",
+                "color": "#777"
+            },
+            "filling1": {
+                "text": "beijinho com creme tres leite com ameixa",
+                "bgColor": "#F2DDAD",
+                "color": "#777"
+            },
+            "filling2": {
+                "text": "beijinho com creme tres leite com ameixa",
+                "bgColor": "#F2DDAD",
+                "color": "#777"
+            },
+            "cover": {
+                "text": "chantily",
+                "bgColor": "#EFEEE8",
+                "color": "#777"
+            }
+        }
+    }
+]
