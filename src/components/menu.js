@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 
 import MenuItemGroup from './menuItemGroup';
 import chocolateIcon from '../media/chocolate.svg';
@@ -26,11 +26,22 @@ const othersItems = [
 ]
 
 const Menu = () => {
+    const [itemActive, setItemActive] = useState(false);
+    
+    const renderMenuDetailsBackground = () => {
+        if(itemActive) {
+            return <div className="mid-background" />;
+        } else {
+            return null;
+        }
+    }
+
     return (
         <div className="menu-container">
-            <MenuItemGroup order="left" items={chocolateItems} type="Chocolate" icon={chocolateIcon} active />
-            <MenuItemGroup order="right" items={fruitItems} type="Frutas" icon={fruitsIcon} />
-            <MenuItemGroup order="left" items={othersItems} type="Diversos" icon={chocolateIcon} others />
+            {renderMenuDetailsBackground()}
+            <MenuItemGroup order="left" items={chocolateItems} type="Chocolate" icon={chocolateIcon} setItemActive={setItemActive} />
+            <MenuItemGroup order="right" items={fruitItems} type="Frutas" icon={fruitsIcon} setItemActive={setItemActive} />
+            <MenuItemGroup order="left" items={othersItems} type="Diversos" icon={chocolateIcon} others setItemActive={setItemActive} />
         </div>
     )
 }

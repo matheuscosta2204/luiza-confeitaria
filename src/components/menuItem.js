@@ -3,7 +3,7 @@ import React, { useState, useEffect } from 'react';
 import MenuItemDetails from './menuItemDetails';
 import MenuItemDetailsOthers from './menuItemDetailsOthers';
 
-const MenuItem = ({ item, order, active, others }) => {
+const MenuItem = ({ item, order, active, others, setItemActive }) => {
 
     useEffect(() => {
         if(active) {
@@ -29,12 +29,22 @@ const MenuItem = ({ item, order, active, others }) => {
         }
     }
 
+    const openModal = () => {
+        setHovered(true);
+        setItemActive(true);
+    }
+
+    const closeModal = () => {
+        setHovered(false);
+        setItemActive(false);
+    }
+
     let menuItemClass = [order === "left" ? "menu-item-left" : "menu-item-right", hovered ? "item-active increase-right": "", ];
     let menuItemBoxClass = [order === "left" ? "menu-item-box-left" : "menu-item-box-right"];
     return (
         <div className={menuItemBoxClass.join(" ")}
-            onMouseEnter={() => setHovered(true)} 
-            onMouseLeave={() => setHovered(false)}>
+            onMouseEnter={openModal} 
+            onMouseLeave={closeModal}>
             <div className={menuItemClass.join(" ")}>
                 {item.title}
             </div>

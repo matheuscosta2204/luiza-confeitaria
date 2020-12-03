@@ -2,7 +2,7 @@ import React from 'react';
 
 import MenuItem from './menuItem';
 
-const MenuItemGroup = ({ items, others, type, order, active }) => {
+const MenuItemGroup = ({ items, others, type, order, active, setItemActive }) => {
     const orderClass = [order === 'left' ? "order-left" : "order-right"];
     const migHeaderClass = [order === 'left' ? "mig-header-left" : "mig-header-right"];
     return (
@@ -12,7 +12,7 @@ const MenuItemGroup = ({ items, others, type, order, active }) => {
                     <h2>{type}</h2>
                 </div>
                 {items.map((item, index) => (
-                    <MenuItem item={item} order={order} active={active && index === 0 ? true: false} others={others} />
+                    <MenuItem item={item} order={order} active={active && index === 0 ? true: false} others={others} setItemActive={setItemActive} />
                 ))}
             </div>
         </div>
