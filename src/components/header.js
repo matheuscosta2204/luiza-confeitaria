@@ -1,6 +1,11 @@
 import React from 'react';
 
-const Header = () => {
+const Header = ({ reference }) => {
+
+  const onCLickButton = () => {
+    reference.current.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  }
+
   return (
     <div className="header-background">
       <div className="header-shadow">
@@ -14,7 +19,7 @@ const Header = () => {
                 <span className="heading-primary-sub">bolos para sua festa</span>
                 </h1>
 
-                <a href="../#" className="btn btn-white btn-animated">Nosso cardápio</a>
+                <span onClick={onCLickButton} className="btn btn-white btn-animated span">Nosso cardápio</span>
             </div>
           </header>
       </div>

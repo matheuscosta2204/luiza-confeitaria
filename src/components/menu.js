@@ -25,7 +25,7 @@ const othersItems = [
     }
 ]
 
-const Menu = () => {
+const Menu = ({ reference }) => {
     const [itemActive, setItemActive] = useState(false);
     
     const renderMenuDetailsBackground = () => {
@@ -37,7 +37,7 @@ const Menu = () => {
     }
 
     return (
-        <div className="menu-container">
+        <div className="menu-container" ref={reference} >
             {renderMenuDetailsBackground()}
             <MenuItemGroup order="left" items={chocolateItems} type="Chocolate" icon={chocolateIcon} setItemActive={setItemActive} />
             <MenuItemGroup order="right" items={fruitItems} type="Frutas" icon={fruitsIcon} setItemActive={setItemActive} />

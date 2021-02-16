@@ -1,4 +1,4 @@
-import React, { useRef } from 'react';
+import React, { useRef, useEffect } from 'react';
 import Slider from "react-slick";
 
 import leftArrow from '../media/left-arrow.svg';
@@ -32,10 +32,18 @@ const Slide = ({ url, index, next, prev, ...props }) => {
 
 const GalleryModal = ({ isOpen, closeModal }) => {
 
+    useEffect(() => {
+        if(isOpen) {
+            imgRef.current.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        }
+    }, [isOpen]);
+
     let slider = useRef(null);
+    let imgRef = useRef(null);
 
     const settings = {
       dots: true,
+      dotsClass: "slick-dots",
       infinite: true,
       speed: 500,
       slidesToShow: 1,
@@ -55,10 +63,10 @@ const GalleryModal = ({ isOpen, closeModal }) => {
         return (
             <div className="gm-background">
                 <div className="gm-shadow" onClick={closeModal} />
-                <div className="gm-container">
+                <div className="gm-container" ref={imgRef}>
                     <Slider {...settings} ref={ref => (slider = ref)}>
                         {imgs.map((img, index) => (
-                            <Slide index={index} url={img} next={next} prev={previous} />
+                            <Slide key={index} index={index} url={img} next={next} prev={previous} />
                         ))}
                     </Slider>
                 </div>
