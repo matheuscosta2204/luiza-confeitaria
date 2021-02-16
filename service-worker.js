@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/luiza-confeitaria/precache-manifest.7c41d27090d86509e587e7b421fd61be.js"
+  "/luiza-confeitaria/precache-manifest.b5a866dd7acb61c7ec9bcc1d2c51cb63.js"
 );
 
 self.addEventListener('message', (event) => {

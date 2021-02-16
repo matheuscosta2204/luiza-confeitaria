@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e04961f1c182b1590b403a51532ba43c",
+    "revision": "6a9d3387eaaa100544fdfd77c43fc5e1",
     "url": "/luiza-confeitaria/index.html"
   },
   {
-    "revision": "482d4586deb02a3cd4b9",
+    "revision": "403d14acd796815c64d5",
     "url": "/luiza-confeitaria/static/css/2.1f08eb9e.chunk.css"
   },
   {
-    "revision": "548cacf95f44bb3e7ae2",
-    "url": "/luiza-confeitaria/static/css/main.02b4d084.chunk.css"
+    "revision": "a79d47bda700cc354ea2",
+    "url": "/luiza-confeitaria/static/css/main.b4e8976d.chunk.css"
   },
   {
-    "revision": "482d4586deb02a3cd4b9",
-    "url": "/luiza-confeitaria/static/js/2.ff700a03.chunk.js"
+    "revision": "403d14acd796815c64d5",
+    "url": "/luiza-confeitaria/static/js/2.39788d8d.chunk.js"
   },
   {
     "revision": "5ac48c47bb3912b14c2d8de4f56d5ae8",
-    "url": "/luiza-confeitaria/static/js/2.ff700a03.chunk.js.LICENSE.txt"
+    "url": "/luiza-confeitaria/static/js/2.39788d8d.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "548cacf95f44bb3e7ae2",
-    "url": "/luiza-confeitaria/static/js/main.2ba6ac21.chunk.js"
+    "revision": "a79d47bda700cc354ea2",
+    "url": "/luiza-confeitaria/static/js/main.ccb549e4.chunk.js"
   },
   {
     "revision": "df5c0977a37787c6065a",
@@ -78,5 +78,13 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "f97e3bbf73254b0112091d0192f17aec",
     "url": "/luiza-confeitaria/static/media/slick.f97e3bbf.svg"
+  },
+  {
+    "revision": "ab5a17aaced9186373dd7de8d791987b",
+    "url": "/luiza-confeitaria/static/media/telephone.ab5a17aa.svg"
+  },
+  {
+    "revision": "d6e2a21f9a3a5fa3f7bf7de5f7dc32cc",
+    "url": "/luiza-confeitaria/static/media/whatsapp.d6e2a21f.svg"
   }
 ]);
