@@ -12,7 +12,7 @@ const MenuItemGroup = ({ items, others, type, order, active, setItemActive }) =>
                     <h2>{type}</h2>
                 </div>
                 {items.map((item, index) => (
-                    <MenuItem item={item} order={order} active={active && index === 0 ? true: false} others={others} setItemActive={setItemActive} />
+                    <MenuItem key={index} item={item} order={order} active={active && index === 0 ? true: false} others={others} setItemActive={setItemActive} />
                 ))}
             </div>
         </div>

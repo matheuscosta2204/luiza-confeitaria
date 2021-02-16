@@ -8,7 +8,6 @@ const Header = () => {
             <div className="logo-box">
               <img src={require('../media/logo-fundo-branco.png')} alt="Luiza Confeitaria" className="logo" />
             </div>
-
             <div className="text-box">
                 <h1 className="heading-primary">
                 <span className="heading-primary-main">Luiza Confeitaria</span>

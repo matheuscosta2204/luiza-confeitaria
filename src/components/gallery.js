@@ -9,18 +9,21 @@ const Gallery = () => {
         <div className="gallery-background">
             <div className="gallery-shadow">
                 <div className="gallery-container">
-                    <div class="parent" onClick={() => setIsModalOpen(true)}>
-                        <div class="child img1" />
+                    <div className="parent" onClick={() => setIsModalOpen(true)}>
+                        <div className="child img1" />
                     </div>
-                    <div class="parent" onClick={() => setIsModalOpen(true)}>
-                        <div class="child img2" />
+                    <div className="parent" onClick={() => setIsModalOpen(true)}>
+                        <div className="child img2" />
                     </div>
-                    <div class="parent" onClick={() => setIsModalOpen(true)}>
-                        <div class="child img3" />
+                    <div className="parent" onClick={() => setIsModalOpen(true)}>
+                        <div className="child img3" />
                     </div>
-                    <div class="parent" onClick={() => setIsModalOpen(true)}>
-                        <div class="child img4" />
+                    <div className="parent" onClick={() => setIsModalOpen(true)}>
+                        <div className="child img4" />
                     </div>
+                </div>
+                <div className="gallery-btn-box">
+                    <span onClick={() => setIsModalOpen(true)} className="btn btn-white btn-animated">Nossos Bolos Decorados</span>
                 </div>
             </div>
             <GalleryModal isOpen={isModalOpen} closeModal={() => setIsModalOpen(false)} />
