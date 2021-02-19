@@ -1,18 +1,18 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "6a9d3387eaaa100544fdfd77c43fc5e1",
+    "revision": "9c0d508de48ed5f0f9eb237ebacc5af6",
     "url": "/luiza-confeitaria/index.html"
   },
   {
-    "revision": "403d14acd796815c64d5",
+    "revision": "40c45d61b743d885ac2d",
     "url": "/luiza-confeitaria/static/css/2.1f08eb9e.chunk.css"
   },
   {
-    "revision": "a79d47bda700cc354ea2",
-    "url": "/luiza-confeitaria/static/css/main.b4e8976d.chunk.css"
+    "revision": "eceafbe8969ea659cdae",
+    "url": "/luiza-confeitaria/static/css/main.170633b2.chunk.css"
   },
   {
-    "revision": "403d14acd796815c64d5",
+    "revision": "40c45d61b743d885ac2d",
     "url": "/luiza-confeitaria/static/js/2.39788d8d.chunk.js"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/luiza-confeitaria/static/js/2.39788d8d.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "a79d47bda700cc354ea2",
-    "url": "/luiza-confeitaria/static/js/main.ccb549e4.chunk.js"
+    "revision": "eceafbe8969ea659cdae",
+    "url": "/luiza-confeitaria/static/js/main.733d4b1e.chunk.js"
   },
   {
     "revision": "df5c0977a37787c6065a",
@@ -46,18 +46,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "7ab84698d27a5734c4fdc726a08236c1",
     "url": "/luiza-confeitaria/static/media/logo-fundo-branco.7ab84698.png"
-  },
-  {
-    "revision": "dbaa2cdd66362d7ac00a669b87b2bff9",
-    "url": "/luiza-confeitaria/static/media/pexels-daniela-echavez-1120970.dbaa2cdd.jpg"
-  },
-  {
-    "revision": "3a817ddc73249b1ed4f068de43026773",
-    "url": "/luiza-confeitaria/static/media/pexels-freestocksorg-867464.3a817ddc.jpg"
-  },
-  {
-    "revision": "133df60519cca106e489f5b02ce11790",
-    "url": "/luiza-confeitaria/static/media/pexels-trang-doan-1128678.133df605.jpg"
   },
   {
     "revision": "4c3a69805f4590aa75c2c85c89d49728",

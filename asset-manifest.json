@@ -1,25 +1,24 @@
 {
   "files": {
-    "main.css": "/luiza-confeitaria/static/css/main.b4e8976d.chunk.css",
-    "main.js": "/luiza-confeitaria/static/js/main.ccb549e4.chunk.js",
-    "main.js.map": "/luiza-confeitaria/static/js/main.ccb549e4.chunk.js.map",
+    "main.css": "/luiza-confeitaria/static/css/main.170633b2.chunk.css",
+    "main.js": "/luiza-confeitaria/static/js/main.733d4b1e.chunk.js",
+    "main.js.map": "/luiza-confeitaria/static/js/main.733d4b1e.chunk.js.map",
     "runtime-main.js": "/luiza-confeitaria/static/js/runtime-main.d8a4d203.js",
     "runtime-main.js.map": "/luiza-confeitaria/static/js/runtime-main.d8a4d203.js.map",
     "static/css/2.1f08eb9e.chunk.css": "/luiza-confeitaria/static/css/2.1f08eb9e.chunk.css",
     "static/js/2.39788d8d.chunk.js": "/luiza-confeitaria/static/js/2.39788d8d.chunk.js",
     "static/js/2.39788d8d.chunk.js.map": "/luiza-confeitaria/static/js/2.39788d8d.chunk.js.map",
     "index.html": "/luiza-confeitaria/index.html",
-    "precache-manifest.b5a866dd7acb61c7ec9bcc1d2c51cb63.js": "/luiza-confeitaria/precache-manifest.b5a866dd7acb61c7ec9bcc1d2c51cb63.js",
+    "precache-manifest.179a006ee9c86e57265bd7ce7fb52e5d.js": "/luiza-confeitaria/precache-manifest.179a006ee9c86e57265bd7ce7fb52e5d.js",
     "service-worker.js": "/luiza-confeitaria/service-worker.js",
     "static/css/2.1f08eb9e.chunk.css.map": "/luiza-confeitaria/static/css/2.1f08eb9e.chunk.css.map",
-    "static/css/main.b4e8976d.chunk.css.map": "/luiza-confeitaria/static/css/main.b4e8976d.chunk.css.map",
+    "static/css/main.170633b2.chunk.css.map": "/luiza-confeitaria/static/css/main.170633b2.chunk.css.map",
     "static/js/2.39788d8d.chunk.js.LICENSE.txt": "/luiza-confeitaria/static/js/2.39788d8d.chunk.js.LICENSE.txt",
     "static/media/chocolate.svg": "/luiza-confeitaria/static/media/chocolate.6b514a66.svg",
     "static/media/fire.svg": "/luiza-confeitaria/static/media/fire.54f82c7c.svg",
     "static/media/fruits.svg": "/luiza-confeitaria/static/media/fruits.0d738eaa.svg",
     "static/media/left-arrow.svg": "/luiza-confeitaria/static/media/left-arrow.3eaaa6e5.svg",
     "static/media/logo-fundo-branco.png": "/luiza-confeitaria/static/media/logo-fundo-branco.7ab84698.png",
-    "static/media/index.css": "/luiza-confeitaria/static/media/pexels-trang-doan-1128678.133df605.jpg",
     "static/media/right-arrow.svg": "/luiza-confeitaria/static/media/right-arrow.4c3a6980.svg",
     "static/media/slick-theme.css": "/luiza-confeitaria/static/media/slick.f97e3bbf.svg",
     "static/media/telephone.svg": "/luiza-confeitaria/static/media/telephone.ab5a17aa.svg",
@@ -29,7 +28,7 @@
     "static/js/runtime-main.d8a4d203.js",
     "static/css/2.1f08eb9e.chunk.css",
     "static/js/2.39788d8d.chunk.js",
-    "static/css/main.b4e8976d.chunk.css",
-    "static/js/main.ccb549e4.chunk.js"
+    "static/css/main.170633b2.chunk.css",
+    "static/js/main.733d4b1e.chunk.js"
   ]
 }
