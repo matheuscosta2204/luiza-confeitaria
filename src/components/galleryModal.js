@@ -5,15 +5,16 @@ import leftArrow from '../media/left-arrow.svg';
 import rightArrow from '../media/right-arrow.svg';
 
 const imgs = [
-    "https://lh3.google.com/u/0/d/14dnLDyZ9yLX6cZj2l_-xfipyVyPeLstu=w1920-h969-iv1",
-    "https://lh3.google.com/u/0/d/1WKDCcKxmqjzb-vTIZr2KMU023nMCoktd=w1249-h969-iv1",
-    "https://lh3.google.com/u/0/d/1SY2ERsol8-wYAmnwoqqe-sq6jbfdeKff=w1249-h969-iv1",
-    "https://lh3.google.com/u/0/d/1Ij6lnFpVUZVO0GMm6FyjCkd8znXCT3ds=w1249-h969-iv1",
-    "https://lh3.google.com/u/0/d/1N-ddPv42VYfWyloVJi_mR0MKDM8jPk17=w1249-h969-iv1",
-    "https://lh3.google.com/u/0/d/1XuGc8qdL5gGqE9AGtAfJfbmOW05HA885=w1249-h969-iv1",
-    "https://lh3.google.com/u/0/d/1x4mAXJZaerwjjBLGg3inRfbO2Rj4R_sE=w1249-h969-iv1",
-    "https://lh3.google.com/u/0/d/1Ecvj4Kt0QDTVyFHZ4vODvUNCLDcY-OYU=w1249-h969-iv1",
-    "https://lh3.google.com/u/0/d/1pBCNL8T3jALDkF0Z9SEIQCU-lJ1QAAQ4=w1249-h969-iv1"
+    "/assets/images/bolo0.jpg",
+    "/assets/images/bolo1.jpg",
+    "/assets/images/bolo2.jpg",
+    "/assets/images/bolo3.jpg",
+    "/assets/images/bolo4.jpg",
+    "/assets/images/bolo5.jpg",
+    "/assets/images/bolo6.jpg",
+    "/assets/images/bolo7.jpg",
+    "/assets/images/bolo8.jpg",
+    "/assets/images/bolo9.jpg"
 ]
 
 const Slide = ({ url, index, next, prev, ...props }) => {

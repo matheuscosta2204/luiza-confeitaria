@@ -25,13 +25,13 @@ const Footer = () => {
             </GoogleMapReact>
         </div> */}
         <div>
-            <h1>Rua Alberto de Oliveira</h1>
-            <h2>Jd. Maria Goretti, 363</h2>
+            <h1>Rua Alberto de Oliveira, 363</h1>
+            <h2>Jd. Maria Goretti</h2>
             <h2>Ribeirão Preto - São Paulo</h2>
         </div>
         <ul>
             <li><img src={telephone} alt="telephone" style={{ width: '20px' }} /><p>3013-2687</p></li>
-            <li><img src={telephone} alt="telephone" style={{ width: '20px' }} /><p>3637-2847</p></li>
+            <li><img src={telephone} alt="telephone" style={{ width: '20px' }} /><p>3637-4709</p></li>
             <li><img src={whatsapp} alt="whatsapp" style={{ width: '20px' }} /><p>98262-2198</p></li>
         </ul>
     </div>

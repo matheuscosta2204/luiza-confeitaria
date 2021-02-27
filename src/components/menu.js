@@ -11,17 +11,17 @@ const othersItems = [
     {
         title: "Bolovo",
         description: "Bolo de qualquer sabor acima, coberto com casca de ovo de pascoa",
-        image: "https://lh3.google.com/u/0/d/1C-7dZ44zCmSJ3MPJ-YTec8QeYqqOcYaK=w1920-h969-iv1"
+        image: "/assets/images/bolovo.jpg"
     },
     {
         title: "Merengue",
         description: "Uma camada de suspiro, uma camada de creme, uma camada de chantily com morangos.",
-        image: "https://lh3.google.com/u/0/d/1i8-eV2lMlBwXHPcdiUV1ba5x9GPRggR9=w1289-h969-iv1"
+        image: "/assets/images/merengue.jpg"
     },
     {
         title: "Bolo no pote",
         description: "Bolo de qualquer sabor acima, em um pote de 10cm de altura",
-        image: "https://lh3.google.com/u/0/d/1_eyUlNjpjVavO8wvqWNXVAiMAJ-0TqHO=w1289-h969-iv1"
+        image: "/assets/images/bolopote.jpg"
     }
 ]
 

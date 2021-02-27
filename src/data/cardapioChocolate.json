@@ -29,7 +29,7 @@
         "description": {
             "dough": {
                 "text": "pão de ló de chocolate",
-                "bgColor": "#5D372C",
+                "bgColor": "#61392D",
                 "color": "#f2f2f2"
             },
             "filling1": {
@@ -44,7 +44,7 @@
             },
             "cover": {
                 "text": "brigadeiro, raspas de chocolate e chocoball",
-                "bgColor": "#AD7559",
+                "bgColor": "#4E261A",
                 "color": "#f2f2f2"
             }
         }
@@ -54,7 +54,7 @@
         "description": {
             "dough": {
                 "text": "pão de ló de chocolate",
-                "bgColor": "#5D372C",
+                "bgColor": "#61392D",
                 "color": "#f2f2f2"
             },
             "filling1": {
@@ -71,6 +71,281 @@
                 "text": "mousse de chocolate e raspas de choc. preto e branco",
                 "bgColor": "#AD7559",
                 "color": "#f2f2f2"
+            }
+        }
+    },
+    {
+        "title": "Chocolate Branco",
+        "description": {
+            "dough": {
+                "text": "Pão de ló branco",
+                "bgColor": "#FFF1D4",
+                "color": "#777"
+            },
+            "filling1": {
+                "text": "Creme três leite com raspas de chocolate branco",
+                "bgColor": "#F1E6E4",
+                "color": "#777"
+            },
+            "filling2": {
+                "text": "Beijinho",
+                "bgColor": "#F2DDAD",
+                "color": "#777"
+            },
+            "cover": {
+                "text": "Chantily",
+                "bgColor": "#EFEEE8",
+                "color": "#777"
+            }
+        }
+    },
+    {
+        "title": "Brigadeiro",
+        "description": {
+            "dough": {
+                "text": "Pão de ló de chocolate",
+                "bgColor": "#61392D",
+                "color": "#f2f2f2"
+            },
+            "filling1": {
+                "text": "Brigadeiro",
+                "bgColor": "#4E261A",
+                "color": "#f2f2f2"
+            },
+            "filling2": {
+                "text": "Brigadeiro",
+                "bgColor": "#4E261A",
+                "color": "#f2f2f2"
+            },
+            "cover": {
+                "text": "Brigadeiro com raspas de chocolate e granulado",
+                "bgColor": "#AD7559",
+                "color": "#f2f2f2"
+            }
+        }
+    },
+    {
+        "title": "Sonho de Valsa",
+        "description": {
+            "dough": {
+                "text": "Pão de ló de chocolate",
+                "bgColor": "#61392D",
+                "color": "#f2f2f2"
+            },
+            "filling1": {
+                "text": "Brigadeiro",
+                "bgColor": "#4E261A",
+                "color": "#f2f2f2"
+            },
+            "filling2": {
+                "text": "Sonho de valsa",
+                "bgColor": "#F1E6E4",
+                "color": "#777"
+            },
+            "cover": {
+                "text": "Mousse de chocolate com raspas de chocolate e granulado",
+                "bgColor": "#AD7559",
+                "color": "#f2f2f2"
+            }
+        }
+    },
+    {
+        "title": "Mousse de chocolate",
+        "description": {
+            "dough": {
+                "text": "Pão de ló de chocolate",
+                "bgColor": "#61392D",
+                "color": "#f2f2f2"
+            },
+            "filling1": {
+                "text": "Mousse de chocolate",
+                "bgColor": "#AD7559",
+                "color": "#f2f2f2"
+            },
+            "filling2": {
+                "text": "Mousse de chocolate",
+                "bgColor": "#AD7559",
+                "color": "#f2f2f2"
+            },
+            "cover": {
+                "text": "Mousse de chocolate com raspas de chocolate",
+                "bgColor": "#AD7559",
+                "color": "#f2f2f2"
+            }
+        }
+    },
+    {
+        "title": "Mousse de chocolate branco",
+        "description": {
+            "dough": {
+                "text": "Pão de ló branco",
+                "bgColor": "#FFF1D4",
+                "color": "#7777777"
+            },
+            "filling1": {
+                "text": "Mousse de chocolate branco",
+                "bgColor": "#F2DDAD",
+                "color": "#777777"
+            },
+            "filling2": {
+                "text": "Mousse de chocolate branco",
+                "bgColor": "#F2DDAD",
+                "color": "#777777"
+            },
+            "cover": {
+                "text": "Mousse de chocolate branco com raspas de chocolate",
+                "bgColor": "#F2DDAD",
+                "color": "#777777"
+            }
+        }
+    },
+    {
+        "title": "Floresta Negra",
+        "description": {
+            "dough": {
+                "text": "Pão de ló de chocolate",
+                "bgColor": "#61392D",
+                "color": "#f2f2f2"
+            },
+            "filling1": {
+                "text": "Chantily com cerejas com raspas de chocolate",
+                "bgColor": "#EFEEE8",
+                "color": "#777"
+            },
+            "filling2": {
+                "text": "Mousse de chocolate",
+                "bgColor": "#AD7559",
+                "color": "#f2f2f2"
+            },
+            "cover": {
+                "text": "Chantily com raspas de chocolate",
+                "bgColor": "#EFEEE8",
+                "color": "#777"
+            }
+        }
+    },
+    {
+        "title": "Floresta Branca",
+        "description": {
+            "dough": {
+                "text": "Pão de ló branco",
+                "bgColor": "#FFF1D4",
+                "color": "#7777777"
+            },
+            "filling1": {
+                "text": "Chantily com cerejas com raspas de chocolate branco",
+                "bgColor": "#EFEEE8",
+                "color": "#777"
+            },
+            "filling2": {
+                "text": "Mousse de chocolate branco",
+                "bgColor": "#F2DDAD",
+                "color": "#777777"
+            },
+            "cover": {
+                "text": "Chantily com raspas de chocolate",
+                "bgColor": "#EFEEE8",
+                "color": "#777"
+            }
+        }
+    },
+    {
+        "title": "Napolitano",
+        "description": {
+            "dough": {
+                "text": "Pão de ló de chocolate",
+                "bgColor": "#61392D",
+                "color": "#f2f2f2"
+            },
+            "filling1": {
+                "text": "Mousse branco com morango",
+                "bgColor": "#F2DDAD",
+                "color": "#777777"
+            },
+            "filling2": {
+                "text": "Mousse de chocolate",
+                "bgColor": "#AD7559",
+                "color": "#f2f2f2"
+            },
+            "cover": {
+                "text": "Mousse de chocolate com raspas de chocolate branco e preto",
+                "bgColor": "#AD7559",
+                "color": "#f2f2f2"
+            }
+        }
+    },
+    {
+        "title": "Sensação",
+        "description": {
+            "dough": {
+                "text": "Pão de ló de chocolate",
+                "bgColor": "#61392D",
+                "color": "#f2f2f2"
+            },
+            "filling1": {
+                "text": "Creme tres leite com morango",
+                "bgColor": "#F2DDAD",
+                "color": "#777"
+            },
+            "filling2": {
+                "text": "Creme tres leite com morango",
+                "bgColor": "#F2DDAD",
+                "color": "#777"
+            },
+            "cover": {
+                "text": "Mousse de chocolate com raspas de chocolate",
+                "bgColor": "#AD7559",
+                "color": "#f2f2f2"
+            }
+        }
+    },
+    {
+        "title": "Kinder",
+        "description": {
+            "dough": {
+                "text": "Pão de ló de chocolate",
+                "bgColor": "#61392D",
+                "color": "#f2f2f2"
+            },
+            "filling1": {
+                "text": "Brigadeiro",
+                "bgColor": "#4E261A",
+                "color": "#f2f2f2"
+            },
+            "filling2": {
+                "text": "Merengue com leite ninho",
+                "bgColor": "#F2DDAD",
+                "color": "#777"
+            },
+            "cover": {
+                "text": "Mousse de chocolate com raspas de chocolate branco e preto",
+                "bgColor": "#AD7559",
+                "color": "#f2f2f2"
+            }
+        }
+    },
+    {
+        "title": "Ninho com Frutas",
+        "description": {
+            "dough": {
+                "text": "Pão de ló branco",
+                "bgColor": "#FFF1D4",
+                "color": "#777"
+            },
+            "filling1": {
+                "text": "Mousse de leite ninho com a fruta que escolher",
+                "bgColor": "#F1E6E4",
+                "color": "#777"
+            },
+            "filling2": {
+                "text": "Mousse de leite ninho com a fruta que escolher",
+                "bgColor": "#F1E6E4",
+                "color": "#777"
+            },
+            "cover": {
+                "text": "Leite ninho com raspas de chocolate branco",
+                "bgColor": "#F1E6E4",
+                "color": "#777"
             }
         }
     }

@@ -3,47 +3,22 @@
         "title": "Abacaxi",
         "description": {
             "dough": {
-                "text": "pão de ló branco",
+                "text": "Pão de ló branco",
                 "bgColor": "#FFF1D4",
                 "color": "#777"
             },
             "filling1": {
-                "text": "beijinho com creme tres leite com abacaxi",
+                "text": "Creme tres leite com abacaxi",
                 "bgColor": "#F2DDAD",
                 "color": "#777"
             },
             "filling2": {
-                "text": "beijinho com creme tres leite com abacaxi",
+                "text": "Beijinho",
                 "bgColor": "#F2DDAD",
                 "color": "#777"
             },
             "cover": {
-                "text": "chantily",
-                "bgColor": "#EFEEE8",
-                "color": "#777"
-            }
-        }
-    },
-    {
-        "title": "Pessego",
-        "description": {
-            "dough": {
-                "text": "pão de ló branco",
-                "bgColor": "#FFF1D4",
-                "color": "#777"
-            },
-            "filling1": {
-                "text": "beijinho com creme tres leite com pessego",
-                "bgColor": "#F2DDAD",
-                "color": "#777"
-            },
-            "filling2": {
-                "text": "beijinho com creme tres leite com pessego",
-                "bgColor": "#F2DDAD",
-                "color": "#777"
-            },
-            "cover": {
-                "text": "chantily",
+                "text": "Chantily",
                 "bgColor": "#EFEEE8",
                 "color": "#777"
             }
@@ -53,22 +28,172 @@
         "title": "Ameixa",
         "description": {
             "dough": {
-                "text": "pão de ló branco",
+                "text": "Pão de ló branco",
                 "bgColor": "#FFF1D4",
                 "color": "#777"
             },
             "filling1": {
-                "text": "beijinho com creme tres leite com ameixa",
+                "text": "Creme tres leite com ameixa",
                 "bgColor": "#F2DDAD",
                 "color": "#777"
             },
             "filling2": {
-                "text": "beijinho com creme tres leite com ameixa",
+                "text": "Beijinho",
                 "bgColor": "#F2DDAD",
                 "color": "#777"
             },
             "cover": {
-                "text": "chantily",
+                "text": "Chantily",
+                "bgColor": "#EFEEE8",
+                "color": "#777"
+            }
+        }
+    },
+    {
+        "title": "Flocos de Coco",
+        "description": {
+            "dough": {
+                "text": "Pão de ló branco",
+                "bgColor": "#FFF1D4",
+                "color": "#777"
+            },
+            "filling1": {
+                "text": "Creme tres leite",
+                "bgColor": "#F2DDAD",
+                "color": "#777"
+            },
+            "filling2": {
+                "text": "Mousse branco com flocos de coco",
+                "bgColor": "#F2DDAD",
+                "color": "#777"
+            },
+            "cover": {
+                "text": "Mousse branco com flocos de coco",
+                "bgColor": "#F2DDAD",
+                "color": "#777"
+            }
+        }
+    },
+    {
+        "title": "Morango",
+        "description": {
+            "dough": {
+                "text": "Pão de ló branco",
+                "bgColor": "#FFF1D4",
+                "color": "#777"
+            },
+            "filling1": {
+                "text": "Creme tres leite com morango",
+                "bgColor": "#F2DDAD",
+                "color": "#777"
+            },
+            "filling2": {
+                "text": "Beijinho",
+                "bgColor": "#F2DDAD",
+                "color": "#777"
+            },
+            "cover": {
+                "text": "Chantily",
+                "bgColor": "#EFEEE8",
+                "color": "#777"
+            }
+        }
+    },
+    {
+        "title": "Mousse de Maracujá",
+        "description": {
+            "dough": {
+                "text": "Pão de ló branco",
+                "bgColor": "#FFF1D4",
+                "color": "#777"
+            },
+            "filling1": {
+                "text": "Mousse de maracujá",
+                "bgColor": "#F2DDAD",
+                "color": "#777"
+            },
+            "filling2": {
+                "text": "Chocolate branco",
+                "bgColor": "#F2DDAD",
+                "color": "#777"
+            },
+            "cover": {
+                "text": "Mousse de maracujá com raspas de chocolate",
+                "bgColor": "#F2DDAD",
+                "color": "#777"
+            }
+        }
+    },
+    {
+        "title": "Nozes",
+        "description": {
+            "dough": {
+                "text": "Pão de ló branco",
+                "bgColor": "#FFF1D4",
+                "color": "#777"
+            },
+            "filling1": {
+                "text": "Creme tres leite com nozes",
+                "bgColor": "#F2DDAD",
+                "color": "#777"
+            },
+            "filling2": {
+                "text": "Beijinho e nozes",
+                "bgColor": "#F2DDAD",
+                "color": "#777"
+            },
+            "cover": {
+                "text": "Chantily",
+                "bgColor": "#EFEEE8",
+                "color": "#777"
+            }
+        }
+    },
+    {
+        "title": "Pêssego",
+        "description": {
+            "dough": {
+                "text": "Pão de ló branco",
+                "bgColor": "#FFF1D4",
+                "color": "#777"
+            },
+            "filling1": {
+                "text": "Creme tres leite com pêssego",
+                "bgColor": "#F2DDAD",
+                "color": "#777"
+            },
+            "filling2": {
+                "text": "Beijinho",
+                "bgColor": "#F2DDAD",
+                "color": "#777"
+            },
+            "cover": {
+                "text": "Chantily",
+                "bgColor": "#EFEEE8",
+                "color": "#777"
+            }
+        }
+    },
+    {
+        "title": "Salada de Frutas",
+        "description": {
+            "dough": {
+                "text": "Pão de ló branco",
+                "bgColor": "#FFF1D4",
+                "color": "#777"
+            },
+            "filling1": {
+                "text": "Creme tres leite com abacaxi, pêssego e figo",
+                "bgColor": "#F2DDAD",
+                "color": "#777"
+            },
+            "filling2": {
+                "text": "Beijinho",
+                "bgColor": "#F2DDAD",
+                "color": "#777"
+            },
+            "cover": {
+                "text": "Chantily",
                 "bgColor": "#EFEEE8",
                 "color": "#777"
             }
