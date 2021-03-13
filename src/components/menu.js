@@ -1,11 +1,9 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 
+import { getChocolateMenu, getFruitMenu } from '../service';
 import MenuItemGroup from './menuItemGroup';
 import chocolateIcon from '../media/chocolate.svg';
 import fruitsIcon from '../media/fruits.svg';
-
-import chocolateItems from '../data/cardapioChocolate.json';
-import fruitItems from '../data/cardapioFrutas.json';
 
 const othersItems = [
     {
@@ -27,7 +25,18 @@ const othersItems = [
 
 const Menu = ({ reference }) => {
     const [itemActive, setItemActive] = useState(false);
-    
+    const [chocolateMenu, setChocolateMenu] = useState([]);
+    const [fruitMenu, setFruitMenu] = useState([]);
+
+    useEffect(() => {
+        getChocolateMenu().then(chocolates => {
+            getFruitMenu().then(fruits => {
+                setChocolateMenu(chocolates);
+                setFruitMenu(fruits);
+            })
+        })
+    }, [])
+
     const renderMenuDetailsBackground = () => {
         if(itemActive) {
             return <div className="mid-background" />;
@@ -39,8 +48,8 @@ const Menu = ({ reference }) => {
     return (
         <div className="menu-container" ref={reference} >
             {renderMenuDetailsBackground()}
-            <MenuItemGroup order="left" items={chocolateItems} type="Chocolate" icon={chocolateIcon} setItemActive={setItemActive} />
-            <MenuItemGroup order="right" items={fruitItems} type="Frutas" icon={fruitsIcon} setItemActive={setItemActive} />
+            <MenuItemGroup order="left" items={chocolateMenu} type="Chocolate" icon={chocolateIcon} setItemActive={setItemActive} />
+            <MenuItemGroup order="right" items={fruitMenu} type="Frutas" icon={fruitsIcon} setItemActive={setItemActive} />
             <MenuItemGroup order="left" items={othersItems} type="Diversos" icon={chocolateIcon} others setItemActive={setItemActive} />
         </div>
     )
